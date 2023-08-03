@@ -1,0 +1,75 @@
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+} */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  background-color: bisque;
+  margin: auto;
+}
+
+.articles {
+  padding: 1rem;
+  /* width: 40%; */
+  margin: auto;
+}
+.articles__article {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  justify-content: center;
+  background-color: #eee;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.articles__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.articles__input {
+  width: 500px;
+  height: 50px;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  margin-right: 5px;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+}
+
+.articles__btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: orange;
+  color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.articles__btn:hover {
+  background-color: red;
+  transform: scale(1.1);
+}
+
+.articles__article--title {
+  font-size: 1.5rem;
+}
+
+.articles__article--createdat {
+  color: rgb(189, 189, 189, 0.9);
+}
+
+.articles__article--url {
+  color: rgba(50, 168, 226, 0.9);
+}
